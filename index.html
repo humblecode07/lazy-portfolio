@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Miko Calderon, a second-year computer science student passionate about web development.
+            Currently, I'm honing my frontend skills with plans to master backend development next. Welcome to my
+            portfolio where you can learn more about me and my work.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Tools & Skills</h2>
+        <div class="skills-container">
+            <div class="frontend">
+                <p>Frontend</p>
+                <div>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>SASS</li>
+                        <li>Vite</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="backend">
+                <p>Backend</p>
+                <div>
+                    <ul>
+                        <li>NodeJS</li>
+                        <li>Express</li>
+                        <li>JavaScript</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="miscellaneous">
+                <p>Miscellaneous</p>
+                <div>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <h4>Shrimps and Prawns</h4>
+            <p>A fun project I made to challenge my HTML and CSS skills.</p>
+            <p>Languages used:</p>
+            <img class="icon" src="image/html.png" alt="HTML icon">
+            <img class="icon" src="image/css-3.png" alt="CSS icon">
+            <img class="icon" src="image/java-script.png" alt="JavaScript icon">
+            <img class="project-img" src="image/shrimps-and-prawns.png" />
+            <a href="https://github.com/humblecode07/Shrimps-and-Prawns">View code</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <h4>Etch-a-Sketch</h4>
+            <p>An etching website I made to tackle my understanding of JavaScript.</p>
+            <p>Languages used:</p>
+            <img class="icon" src="image/html.png" alt="HTML icon">
+            <img class="icon" src="image/css-3.png" alt="CSS icon">
+            <img class="icon" src="image/java-script.png" alt="JavaScript icon">
+            <img class="project-img" src="image/etch-a-sketch.png" alt="Etch-A-Sketch"> 
+            <a href="https://github.com/humblecode07/Etch-A-Sketch">View code</a>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <h4>DYCIHub: An Online Discussion Forum for DYCIans</h4>
+            <p>Our System Analysis and Design project is a dynamic website designed for DYCIans to connect, share knowledge, and engage in discussions through interactive forums.</p>
+            <p>Languages used:</p>
+            <img class="icon" src="image/html.png" alt="HTML icon">
+            <img class="icon" src="image/css-3.png" alt="CSS icon">
+            <img class="icon" src="image/java-script.png" alt="JavaScript icon">
+            <img class="icon" src="image/physics.png" alt="React icon">
+            <img class="icon" src="image/icons8-mongo-db-96.png" alt="MongoDB icon">
+            <img class="icon" src="image/icons8-express-js-100.png" alt="ExpressJS icon">
+            <img style="border: 1px black solid;" class="project-img" src="image/dycihub.png" />
+            <a href="https://github.com/humblecode07/dycihub">View code</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Send me a message!</p>
+        <form id="contactForm">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+            <input type="submit" value="Submit"><br>
+            <img id="check" class="check" src="image/check.png" />
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Miko Calderon. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
